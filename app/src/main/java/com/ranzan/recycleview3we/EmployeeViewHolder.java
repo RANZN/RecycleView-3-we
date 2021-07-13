@@ -12,7 +12,6 @@ public class EmployeeViewHolder extends RecyclerView.ViewHolder {
     private TextView mTvName;
     private TextView mTvAge;
     private TextView mTvAddress;
-    private ImageView mIvEdit;
     private OnitemClickListner onitemClickListner;
     private LinearLayout linearLayout;
 
@@ -26,7 +25,6 @@ public class EmployeeViewHolder extends RecyclerView.ViewHolder {
         mTvName = itemView.findViewById(R.id.tvName);
         mTvAge = itemView.findViewById(R.id.tvAge);
         mTvAddress = itemView.findViewById(R.id.tvAddress);
-        mIvEdit = itemView.findViewById(R.id.ivEdit);
         linearLayout = itemView.findViewById(R.id.layout);
     }
 
